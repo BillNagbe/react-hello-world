@@ -3,8 +3,16 @@ import './index.css';
 
 
 function Header() {
-
-  return <h1 className="underline">Hello World</h1>
+    return (
+      <React.Fragment>
+        <h1>Hello World</h1>
+        <nav>
+          <p>I am a Nav with a paragraph element inside</p>
+        </nav>
+        <main>Main</main>
+        <footer>footer</footer>
+      </React.Fragment>
+    )
 }
 
 function App() {
